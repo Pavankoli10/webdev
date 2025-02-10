@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="problem.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="imp logo.png" alt="Logo">
+        <h1>I'm Pavan Koli</h1>
+        <p>Web Developer</p>
+        <h1 class="tagline">Welcome to My Portfolio Website</h1>
+        <p class="sub-tagline">Your one-stop solution for everything you need!</p>
+    </header>
+
+    <!-- Search and Social Media Section -->
+    <div class="search-container">
+        <label for="search">Search</label>
+        <input type="search" placeholder="Search anything" id="search">
+
+        <label for="media">Social Media</label>
+        <select name="social" id="media">
+            <option value="" disabled selected>Select</option>
+            <option value="linkedin">LinkedIn</option>
+            <option value="instagram">Instagram</option>
+            <option value="github">GitHub</option>
+        </select>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="content-container">
+        <div class="text-section">
+            <h2>About Me</h2>
+            <p>Hello, I'm Pavan Koli. I am passionate about web development and have gained experience in HTML, CSS, and JavaScript through my internship at Cod Soft Company. My goal is to build dynamic and responsive websites that provide great user experiences.</p>
+            <div class="skills">
+                <span class="tag">1] Front-End Development</span>
+                <span class="tag">2] Problem Solving</span>
+                <span class="tag">3] Attention to Detail</span>
+            </div>
+        </div>
+        <img src="myname.png.jpg" alt="Pavan Koli Photo">
+    </div>
+
+    <!-- My Skills Section -->
+    <div class="my-skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <span class="tag">1] Java Programming</span>
+            <span class="tag">2] Artificial Intelligence</span>
+            <span class="tag">3] Web Development</span>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="webportfolio.png" alt="Project 1" style="max-width: 70%; height: auto;">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>Created a personal portfolio website to showcase my skills, projects, and achievements. Utilized HTML, CSS, and JavaScript.</p>
+        </div>
+    </div>
+
+    <!--resume download-->
+    <section class="resume-section">
+        <h2>Download My Resume</h2>
+        <a href="resume.pdf" download="My_Resume.pdf">
+            <button class="download-btn">Download Resume</button>
+        </a>
+    </section>
+    
+    <!-- Contact Section -->
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p>Email: pavan.koli@gmail.com</p>
+        <p>Phone: +91 7734567890</p>
+        <a href="mailto:pavanjanardan.oli@gmail.com">Send an Email</a>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Pavan Koli | All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
